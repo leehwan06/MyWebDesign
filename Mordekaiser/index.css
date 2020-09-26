@@ -1,0 +1,57 @@
+.title{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.navi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+.icon{
+    all: unset;
+    width: auto;
+    height: auto;
+}
+.rode{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.sta{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.skill{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.for{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+.iconimg{
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding: 5px;
+}
+#title{
+    border: 2px solid black;
+}
